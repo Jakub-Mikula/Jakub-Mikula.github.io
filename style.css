@@ -1,0 +1,77 @@
+header{
+    background: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png") no-repeat;
+    background-attachment: static;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    background-size: 100%;
+    background-color: black;
+    }
+
+main{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    padding: 0 10% 0 10%;
+}
+
+blockquote {
+    display: block;
+    background-color: #696969;
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-size: 60px;
+    text-align: start;
+    margin: 2.5% 5% 2.5% 5%;
+    position: relative;
+    right: 50px;
+}
+
+blockquote::before{
+    content: '“';
+    font-size: 2em;
+}
+
+
+body{
+    max-width: 1260px;
+    margin: auto;
+}
+
+.italic{
+    font-style: italic;
+}
+
+ul{
+    list-style: square;
+}
+
+.nadpis {
+    position:relative;
+    top: 60%;
+    left: 10%;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 38px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+header h2{
+    font-size: 52px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+h2{
+    font-size: 38px;
+}
+
+footer{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    padding: 0 10% 5% 10%;
+}
